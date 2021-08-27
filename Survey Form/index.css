@@ -1,0 +1,92 @@
+body {
+    text-align: center;
+    color: rgb(255, 255, 255);
+
+    background-image: url("https://imgix.elitedaily.com/uploads/image/2020/3/24/122b910b-93ca-4663-99c2-7c5d61dfbfb2-study-789631_1920.jpg");
+    overflow-x: hidden;
+    background-attachment: fixed;
+    position: absolute;
+    height:auto;
+    width:100%;
+
+    margin: 0;
+
+}
+
+#overlay {
+    background: rgba(64, 140, 211, 0.5);
+    height: auto;
+    width: 100%;
+    background-attachment: fixed;
+    position: absolute;
+    margin: 0;
+    z-index: 2;
+}
+
+#container {
+    border: 2px;
+    border-style: none;
+    background-color: rgba(118, 118, 219, 0.5);
+    border-radius: 20px;
+    width: 60%;
+    height: auto;
+    margin: auto;
+
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+#cont2 {
+    border: 2px;
+    border-style: none;
+    background-color: rgba(114, 114, 236, 0.2);
+    border-radius: 23px;
+    text-align: left;
+    padding: 30px 120px 10px;
+    margin: 30px;
+}
+
+#title {
+    font-size: 40px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: bold;
+}
+
+#description {
+    font-size: 25px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+textarea {
+    width: 100%;
+    margin: auto;
+    height: 100px;
+    border-radius: 10px;
+    border-style: none;
+    margin-top: 10px;
+    font-size: 25px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+button {
+    width: 100%;
+    margin: auto;
+    height: 60px; 
+    border-radius: 20px;
+    border-style: none;
+    color: white;
+    background-color: rgb(14, 194, 14);
+}
+
+.box {
+    width: 100%;
+    margin: auto;
+    height: 40px;
+    border-radius: 10px;
+    border-style: none;
+    margin-top: 10px;
+    font-size: 25px;
+    padding-left: 10px;
+}
